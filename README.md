@@ -1,82 +1,67 @@
-# Musicr - Redefine the Music Player
-**A pretty UI&UX Music Player**
+# Timber
+[![Build Status](https://travis-ci.org/naman14/Timber.svg?branch=master)](https://travis-ci.org/naman14/Timber)
+
+Material Design Music Player
+
+This project is no longer in active development. Please refer to [TimberX](https://github.com/naman14/TimberX) instead
+
+<a href='https://play.google.com/store/apps/details?id=naman14.timber&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height=90px/></a>
+
+<a href='https://f-droid.org/repository/browse/?fdid=naman14.timber'><img alt='Get it on F-Droid' src='https://guardianproject.info/wp-content/uploads/2014/07/logo-fdroid.png' height=60px/></a>
+
+## Screenshots
+
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen2.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen3.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen7.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen8.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen9.jpg" width="330" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen10.jpg" width="330" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen1.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen5.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen12.jpg" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen4.png" width="360" height="640">
+<img src="https://raw.githubusercontent.com/naman14/Timber/master/graphics/screen6.png" width="360" height="640">
 
 ## Features
-* Dark Theme Style with wallpaper as background
-* Single activity, all fragments architecture with fancy animation
-* Play the sample/preview of a song, audio visualizer progress bar
-* Play Controller is able to be opened everywhere
-* Large artist image loading, and can be used as background
-* View lyrics, view song details
-* Metadata editor
-* Learn your hobby, automatically create new playlist
-* etc
+- Material design
+- Browse Songs, Albums, Artists
+- Create and edit playlists
+- 6 different now playing styles
+- Homescreen widgets
+- Browse device folders
+- Dark theme and UI customisability
+- Gestures for track switching
+- LastFM scrobble
+- Android Wear and Android Auto support
+- Playing queue in notification (Xposed)
+- Lyrics support
+- Chromecast support
 
-### Installing
-The app will be available in Google Play Store soon.
-```
-Comming soon
-```
-### APK
-Download apk file here [Music player v1.3](https://github.com/dtrung98/Source/raw/master/musicr.apk)
-```
-https://github.com/dtrung98/Source/raw/master/musicr.apk
-```
-## Screenshots
-</br>
-<div align="center">
-   <table align="center" border="0" >
-  <tr>
-    <td>
-<img width="360"
-src="https://user-images.githubusercontent.com/33343210/61610738-2c46aa80-ac84-11e9-80fa-bbe8c6d4119a.png"/>
-       <td><img width="360"
-src="https://user-images.githubusercontent.com/33343210/61610968-c3abfd80-ac84-11e9-9c8a-7ac5c9e257ff.jpg"/>
-    </td>
-     <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61610657-edb0f000-ac83-11e9-8b89-eb205d8ac518.png"/></td>
-  </table>
-  </div>
-</br>
-<div align="center">
-  <table align="center" border="0" >
-  <tr>
-    <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61611561-45e8f180-ac86-11e9-932a-d0cbcd388048.png"/></td>
-     <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61611407-e38ff100-ac85-11e9-8b70-f083436cf3d4.png"/></td>
-     <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61611355-c6f3b900-ac85-11e9-9b0c-c3c3a4734474.png"/></td>
-  </tr>
-</table>
-  </div>
-</br>
-<div align="center">
-  <table align="center" border="0" >
-  <tr>
-    <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61610594-c3f7c900-ac83-11e9-8ccf-1a6d989631d2.png"/></td>
-    <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61611516-2d78d700-ac86-11e9-9187-c53e91a2b891.png"/></td>
-     <td> <img width="360"
-src="https://user-images.githubusercontent.com/33343210/61764970-4eb40180-ae05-11e9-9903-241fa144582b.png"/></td>
-  </tr>
-</table>
-  </div>
-</br>
+## Changelog
 
-## Authors
+Changelog is available [here](https://github.com/naman14/Timber/blob/master/Changelog.md)
 
-* **Le Dinh Trung (ldt)** - *Initial work* - [dtrung98](https://github.com/dtrung98)
+## Credits
+
+* CyanogenMod's [Eleven Music Player](https://github.com/CyanogenMod/android_packages_apps_Eleven)
+* [TimelyTextView](https://github.com/adnan-SM/TimelyTextView)
+* [MultiViewPager](https://github.com/Pixplicity/MultiViewPager)
+* [PlayPauseButton](https://github.com/recruit-lifestyle/PlayPauseButton)
+* [CircularSeekBar](https://github.com/devadvance/circularseekbar)
+* [Nammu](https://github.com/tajchert/Nammu)
+
+# Donate
+Paypal donation email-
+namandwivedi14@gmail.com
 
 
-### License
+## License
 
-* This project is licensed under The GNU General Public License v3.0 - see the [LICENSE.md](/LICENSE) file for details
+>(c) 2015 Naman Dwivedi 
 
-### Acknowledgments
+>This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
 
+>You should have received a copy of the GNU General Public License along with this app. If not, see <https://www.gnu.org/licenses/>.
